@@ -6,6 +6,9 @@
 
 /* common */
 /* container */
+
+
+/* utility */
 .align{
     text-align: left;
 }
@@ -23,16 +26,11 @@
     display: table;
     clear: both;
 }
-
+/* btn */
 .large-btn a {
     background-color: var(--blu-color);
     color: white;
     padding: 9px 20px;
-
-    
-
-
-
 }
 
 .btn a {
@@ -40,10 +38,18 @@
     color: white;
 }
 
+
+
 /* link */
 ul {
     list-style-type: none;
 }
+
+li  {
+    display: inline-block;
+    font-weight: 600;
+}
+
 
 a {
     text-decoration: none;
@@ -62,6 +68,8 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* header */
 header {
     height: 95vh;
 }
@@ -84,11 +92,6 @@ nav .logo {
 nav .logo img {
     vertical-align: middle;
 
-}
-
-nav ul li  {
-    display: inline-block;
-    font-weight: 600;
 }
 
 .left-menu, .rigth-menu {
@@ -186,5 +189,33 @@ nav ul li  {
 
 .width70 img {
     max-width: 85%;
-    
+    min-width: 30%;
 }
+
+/* main */
+
+.container {
+    height: 1200px;
+    width: 65%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.main-title {
+    font-size: 1.5em;
+}
+
+ .fa-dot-circle {
+     color: var(--blu-color);
+ }
+
+ .col {
+     /* background-color: blue; */
+     border: 1px solid grey;
+     height: 800px;
+     width: calc(100% / 3 - 30px);
+ }
+
+ .col-mid {
+     margin: 0 45px;
+ }
