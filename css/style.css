@@ -13,6 +13,14 @@
     text-align: left;
 }
 
+bold {
+    font-weight: bold;
+}
+
+.mar20 {
+    margin: 20px 0;
+}
+
 .float-left {
     float: left;
 }
@@ -207,15 +215,104 @@ nav .logo img {
 
  .fa-dot-circle {
      color: var(--blu-color);
+    }
+    
+.fa-circle, 
+.fa-dot-circle  {
+    margin-right: 0.2em;
+
+}
+
+ .option {
+      margin: 3em 0 2em 0;
+ }
+
+ .option ul li {
+     margin-right: 1em;
  }
 
  .col {
      /* background-color: blue; */
-     border: 1px solid grey;
-     height: 800px;
-     width: calc(100% / 3 - 30px);
+     border: 1px solid lightgrey;
+     height: 1100px;
+     width: calc(100% / 3 - 4em);
  }
 
  .col-mid {
-     margin: 0 45px;
+     margin: 0 5em;
  }
+
+.col-plans {
+    border-bottom: 1px solid lightgrey;
+   
+
+}
+
+ .col-plans h4 {
+    text-align: center;
+    line-height: 3em;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.fa-building,
+.fa-user,
+.fa-user-plus,
+.fa-pencil-alt,
+.fa-folder,
+.fa-check {
+    margin-right: 5px;
+}
+
+.inner-col {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5em;
+}
+
+.plans-type h3 {
+    font-size: 1.6em;
+}
+
+.top-list {
+    margin-top: 3.5em;
+}
+
+.plans-type ul li {
+    font-size: 0.9em;
+}
+
+.col-btn {
+    margin: 3.5em 0 2.5em 0;
+}
+
+.col-btn a { 
+    padding: 8px 40px;
+    
+
+}
+
+.plans-type span a {
+    text-decoration: underline;
+    color: var(--blu-color);
+    font-weight: 600;
+}
+
+.fa-check {
+    color: green;
+}
+
+.plans-details li {
+    margin: 1em 0;
+}
+
+.col-hr {
+    margin: 3.5em 0;
+    width: 20%;
+}
+
+.wide-col {
+    height: 300px;
+    background-color: orange;
+}
