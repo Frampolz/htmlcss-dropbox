@@ -1,3 +1,45 @@
+:root {
+    --blu-color: #0061ff;
+    --azure-color: #b4d0e7;
+    
+}
+
+/* common */
+/* container */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn {
+    
+}
+
+.btn a {
+    background-color:var(--blu-color);
+    color: white;
+}
+
+/* link */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +48,61 @@
 
 html {
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-color: aqua;
+}
+
+nav {
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+}
+
+nav .logo {
+    margin-left: 20px;
+    width: 10%;
+}
+
+nav .logo img {
+    vertical-align: middle;
+
+}
+
+nav ul li  {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.left-menu, .rigth-menu {
+    width: 30%;
+    
+}
+
+.left-menu ul {
+    text-align: left;
+}
+
+.left-menu ul li {
+    margin-right: 25px;
+}
+
+.right-menu {
+    margin-right: 60px;
+}
+
+.right-menu li {
+    margin-left: 25px
+}
+
+.nav-btn {
+   margin-right: 20px;
+    
+}
+
+.nav-btn a {
+    padding: 10px 20px;
 }
