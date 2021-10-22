@@ -6,6 +6,10 @@
 
 /* common */
 /* container */
+.align{
+    text-align: left;
+}
+
 .float-left {
     float: left;
 }
@@ -20,8 +24,15 @@
     clear: both;
 }
 
-.btn {
+.large-btn a {
+    background-color: var(--blu-color);
+    color: white;
+    padding: 9px 20px;
+
     
+
+
+
 }
 
 .btn a {
@@ -52,14 +63,17 @@ html {
 }
 
 header {
-    height: 100vh;
-    background-color: aqua;
+    height: 95vh;
 }
 
 nav {
+    width: 100%;
     height: 80px;
-    background-color: white;
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
 
 nav .logo {
@@ -105,4 +119,72 @@ nav ul li  {
 
 .nav-btn a {
     padding: 10px 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 85%;
+    margin-top: 5pc;
+    background-color: var(--azure-color);
+    text-align:center;
+}
+
+.jumbo-title {
+    height: 45%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.7em;
+}
+
+.jumbo-title h1 {
+    padding-top: 0.8em;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.width30, .width70 {
+    height: 100%;
+}
+
+.width30 {
+    width: 27%;
+    
+}
+
+.description {
+    width: 90%;
+    font-weight: 600;
+}
+
+.undo {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.arrow {
+    width: 50%;
+    font-size: 2.5em;
+    margin-top: 1em;
+}
+
+.jumbo-btn {
+    margin: 2.5em 0 1em 0;
+    
+}
+
+.width70 {
+    width: 70%;
+    
+}
+
+.width70 img {
+    max-width: 85%;
+    
 }
