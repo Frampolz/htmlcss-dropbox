@@ -1,24 +1,29 @@
 :root {
     --blu-color: #0061ff;
-    --azure-color: #b4d0e7;
-    
+    --azure-color: #b4d0e7;    
 }
 
 /* common */
-/* container */
-
-
+hr {
+    margin: 3.5em 0;
+    width: 20%;
+}
 /* utility */
 .align{
     text-align: left;
 }
 
-bold {
-    font-weight: bold;
+.center {
+    margin: 0 auto;
 }
+
 
 .mar20 {
     margin: 20px 0;
+}
+
+.w80 {
+    width: 80%;
 }
 
 .float-left {
@@ -34,6 +39,15 @@ bold {
     display: table;
     clear: both;
 }
+
+/* font-size */
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-weight: bold;
+}
 /* btn */
 .large-btn a {
     background-color: var(--blu-color);
@@ -46,8 +60,6 @@ bold {
     color: white;
 }
 
-
-
 /* link */
 ul {
     list-style-type: none;
@@ -57,7 +69,6 @@ li  {
     display: inline-block;
     font-weight: 600;
 }
-
 
 a {
     text-decoration: none;
@@ -74,6 +85,7 @@ a {
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -90,6 +102,7 @@ nav {
     top: 0;
     left: 0;
     background-color: white;
+    overflow: hidden;
 }
 
 nav .logo {
@@ -105,10 +118,6 @@ nav .logo img {
 .left-menu, .rigth-menu {
     width: 30%;
     
-}
-
-.left-menu ul {
-    text-align: left;
 }
 
 .left-menu ul li {
@@ -143,21 +152,12 @@ nav .logo img {
 
 .jumbo-title {
     height: 45%;
-    width: 80%;
-    margin: 0 auto;
     text-align: left;
     font-size: 2.7em;
 }
 
 .jumbo-title h1 {
     padding-top: 0.8em;
-}
-
-.row {
-    width: 80%;
-    margin: 0 auto;
-    
-    
 }
 
 .width30, .width70 {
@@ -192,25 +192,34 @@ nav .logo img {
 
 .width70 {
     width: 70%;
+}
+
+.jumbo-img {
+    height: 490px;
+    background-image: url(../img/jumbo.png);
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
-.width70 img {
-    max-width: 85%;
-    min-width: 30%;
-}
 
 /* main */
+main {
+    margin-top: 5em;
+}
 
-.container {
+.first-section {
+    height: 140pc;
+}
+
+.top-container {
     height: 1200px;
     width: 65%;
-    margin: 0 auto;
-    /* background-color: red; */
 }
 
 .main-title {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
  .fa-dot-circle {
@@ -235,7 +244,7 @@ nav .logo img {
      /* background-color: blue; */
      border: 1px solid lightgrey;
      height: 1100px;
-     width: calc(100% / 3 - 4em);
+     width: calc(100% / 3 - 3.35em);
  }
 
  .col-mid {
@@ -266,13 +275,7 @@ nav .logo img {
 
 .inner-col {
     height: 80%;
-    width: 80%;
-    margin: 0 auto;
     margin-top: 2.5em;
-}
-
-.plans-type h3 {
-    font-size: 1.6em;
 }
 
 .top-list {
@@ -288,7 +291,7 @@ nav .logo img {
 }
 
 .col-btn a { 
-    padding: 8px 40px;
+    padding: 8px 47px;
     
 
 }
@@ -314,5 +317,98 @@ nav .logo img {
 
 .wide-col {
     height: 300px;
-    background-color: orange;
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin: 3em 0;
 }
+
+.width75 {
+    width: 75%;
+}
+
+.width25 {
+    width: 25%;
+}
+
+.wide-col-btn {
+    margin: 2.5em 0 2.5em 0;
+}
+
+.wide-plans-type,
+.wide-plans-details {
+   margin-left: 2em;
+}
+
+.wide-plans-type {   
+    margin-top: 2.5em;
+}
+
+.wide-plan-price {   
+    margin: 1em 0 2.5em 2em;
+}
+
+.wide-plans-details {
+    font-size: 0.9em;
+    font-weight: 600;
+    
+}
+
+.dropbox-partner {
+    width: 100%;
+    margin-top: 5em;
+}
+
+.partner-img {
+    background-image: url(../img/partner.png);
+    width: 52%;
+    height: 30pc;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.partner-details {
+    width: 48%;
+    position: relative;
+}
+
+.inner-box-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75%;
+    margin-top: 2em;
+}
+
+.inner-box-details>p {
+    margin: 2em 0;
+    font-weight: 500;
+}
+
+
+.partner-btn a {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+.mid-container {
+    width: 65%;
+    height: 500px;
+}
+
+.mid-box {
+    background-color: green;
+    width: 350px;
+    height: 450px;
+}
+
+#box1 {
+    background-image: url(../img/business-feature-switching-tools.png);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
