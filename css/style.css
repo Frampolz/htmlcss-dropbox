@@ -53,11 +53,7 @@ h4 {
     background-color: var(--blu-color);
     color: white;
     padding: 9px 20px;
-}
-
-.btn a {
-    background-color:var(--blu-color);
-    color: white;
+    display: inline-block;
 }
 
 /* link */
@@ -91,7 +87,7 @@ html {
 
 /* header */
 header {
-    height: 95vh;
+    height: 56pc;
 }
 
 nav {
@@ -103,6 +99,7 @@ nav {
     left: 0;
     background-color: white;
     overflow: hidden;
+    z-index: 5;
 }
 
 nav .logo {
@@ -139,6 +136,9 @@ nav .logo img {
 
 .nav-btn a {
     padding: 10px 20px;
+    background-color:var(--blu-color);
+    color: white;
+
 }
 
 /* jumbotron */
@@ -195,11 +195,14 @@ nav .logo img {
 }
 
 .jumbo-img {
-    height: 490px;
+    height: 500px;
     background-image: url(../img/jumbo.png);
     object-fit: contain;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    left: 8em;
     
 }
 
@@ -398,17 +401,48 @@ main {
     height: 500px;
 }
 
-.mid-box {
-    background-color: green;
-    width: 350px;
-    height: 450px;
+.top-row {
+    margin: 3em 0;
+    height: 33pc;
 }
 
-#box1 {
-    background-image: url(../img/business-feature-switching-tools.png);
+.mid-box {
+    width: 350px;
+    height: 460px;
+    float: left;
+}
+
+.central-box {
+    margin: 0 5.8em;
+}
+
+.box-img {
     width: 100%;
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#box1 {
+    background-image: url(../img/business-feature-switching-tools.png);
+    
+}
+#box2 {
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+#box3 {
+    background-image: url(../img/business-feature-multi-device.png);  
+}
+#box4 {
+    background-image: url(../img/business-feature-integrations-it.png);
+    
+}
+#box5 {
+    background-image: url(../img/business-feature-send-files-it.png);
+    
+}
+#box6 {
+    background-image: url(../img/business-feature-security.png);
+    
+}
