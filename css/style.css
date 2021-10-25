@@ -483,9 +483,9 @@ main {
 }
 
 .bottom-mid-col {
-    background-color: royalblue;
+    background-color: #f5f5f5;
     width: 40%;
-    height: 200px;
+    height: 570.88px;
 }
 
 .bottom-box {
@@ -531,11 +531,30 @@ main {
     background-color: #ffd830;  
 }
 
+.bottom-mid-inner-col {
+    width: 90%;
+}
+
+.bottom-mid-inner-col hr {
+    margin: 0.5em 0 5em 0;
+    width: 8%;
+}
+
 .bottom-mid-image {
     background-image: url(../img/designit_black.svg);
     width: 35%;
     height: 130px;
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
+}
+
+.bottom-mid-description p{
+    margin-bottom: 5em;
+}
+
+
+.bottom-mid-description p,
+.bottom-mid-description span {
+    font-weight: 600;
 }
