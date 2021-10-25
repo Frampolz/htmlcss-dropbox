@@ -41,6 +41,10 @@ hr {
 }
 
 /* font-size */
+.main-title {
+    font-size: 2em;
+}
+
 h3 {
     font-size: 1.6em;
 }
@@ -212,17 +216,9 @@ main {
     margin-top: 5em;
 }
 
-.first-section {
-    height: 140pc;
-}
-
+/* topsection */
 .top-container {
-    height: 1200px;
     width: 65%;
-}
-
-.main-title {
-    font-size: 2em;
 }
 
  .fa-dot-circle {
@@ -395,13 +391,16 @@ main {
     border: 1px solid black;
     font-weight: 600;
 }
+/* /top section */
 
+/* middle section */
 .mid-container {
     width: 65%;
-    height: 500px;
+    margin-top: 8em;
+    padding-bottom: 3em;
 }
 
-.top-row {
+.mid-container-top-row {
     margin: 3em 0;
     height: 33pc;
 }
@@ -416,9 +415,18 @@ main {
     margin: 0 5.8em;
 }
 
+.box-description p {
+    width: 90%;
+    font-weight:500;
+}
+
+.box-description a {
+    text-decoration: underline;
+}
+
 .box-img {
     width: 100%;
-    height: 250px;
+    height: 270px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -445,4 +453,89 @@ main {
 #box6 {
     background-image: url(../img/business-feature-security.png);
     
+}
+/* /middle section */
+/* bottom section */
+
+.bottom-section {
+    width: 100%;
+}
+
+.bottom-title {
+    width: 65%;
+}
+
+.bottom-title span {
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.bottom-title a {
+    color: var(--blu-color);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom-left-col,
+.bottom-right-col {
+    width: 30%;
+}
+
+.bottom-mid-col {
+    background-color: royalblue;
+    width: 40%;
+    height: 200px;
+}
+
+.bottom-box {
+    width: 50%;
+    height: 285.44px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#bot-box1 {
+    background-image: url(../img/designit.svg);   
+    background-color: #a2d39b;
+    border: 0.8em solid #d0e9cd;
+}
+#bot-box2 {
+    background-image: url(../img/arizona_state_university.svg);  
+    background-color: #61082b;  
+}
+#bot-box3 {
+    background-image: url(../img/university_of_florida.svg);   
+    background-color: #0093ce;  
+}
+#bot-box4 {
+    background-image: url(../img/topps.svg);   
+    background-color: #ff1c1c;  
+}
+#bot-box5 {
+    background-image: url(../img/world_bicycle_relief.svg);   
+    background-color: #d5001f;  
+}
+#bot-box6 {
+    background-image: url(../img/hearst_corp.svg);   
+    background-color: #b4d0e7;  
+}
+#bot-box7 {
+    background-image: url(../img/lonely_planet.svg);   
+    background-color: #0d2481;  
+}
+#bot-box8 {
+    background-image: url(../img/clear_channel.svg);   
+    background-color: #ffd830;  
+}
+
+.bottom-mid-image {
+    background-image: url(../img/designit_black.svg);
+    width: 35%;
+    height: 130px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
