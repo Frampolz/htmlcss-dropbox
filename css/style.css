@@ -60,6 +60,10 @@ h4 {
     display: inline-block;
 }
 
+.large-btn a:hover {
+    background-color: #4c90ff;
+}
+
 /* link */
 ul {
     list-style-type: none;
@@ -123,6 +127,7 @@ nav .logo img {
 
 .left-menu ul li {
     margin-right: 25px;
+    
 }
 
 .right-menu {
@@ -133,16 +138,25 @@ nav .logo img {
     margin-left: 25px
 }
 
+nav a {
+    padding-bottom: 26px;
+    border-bottom: 3px solid transparent;
+  
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid black;
+
+}
+
 .nav-btn {
    margin-right: 20px;
     
 }
 
 .nav-btn a {
-    padding: 10px 20px;
-    background-color:var(--blu-color);
-    color: white;
-
+    padding: 6px 20px;
+    display: inline;
 }
 
 /* jumbotron */
@@ -240,7 +254,6 @@ main {
  }
 
  .col {
-     /* background-color: blue; */
      border: 1px solid lightgrey;
      height: 1100px;
      width: calc(100% / 3 - 3.35em);
@@ -302,7 +315,7 @@ main {
 }
 
 .fa-check {
-    color: green;
+    color: var(--blu-color);
 }
 
 .plans-details li {
@@ -390,6 +403,11 @@ main {
     color: black;
     border: 1px solid black;
     font-weight: 600;
+}
+
+.partner-btn a:hover,
+.bottom-btn a:hover {
+    background-color: #eaeaea;
 }
 /* /top section */
 
@@ -657,6 +675,12 @@ footer {
     margin: 0.5em 0;
 }
 
+footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
 .languages {
     margin-top: 20em;
 }
@@ -668,6 +692,10 @@ footer {
 .languages span,
 .fa-caret-up {
     color: #5a5a5a;
+}
+
+.languages span:hover {
+    cursor: pointer;
 }
 
 .fa-caret-up {
