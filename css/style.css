@@ -1,3 +1,15 @@
+/* fix */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
 :root {
     --blu-color: #0061ff;
     --azure-color: #b4d0e7;    
@@ -77,19 +89,6 @@ li  {
 a {
     text-decoration: none;
     color: black;
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
 }
 
 
@@ -649,7 +648,7 @@ main {
 /* 4th section */
 .ask-section {
     width: 65%;
-    height: 40em
+    height: 42em
 ;
 }
 
@@ -663,8 +662,11 @@ main {
 
 .ask-row {
     position: relative;
+    width: 98%;
     height: 5em;
     margin-top: 3em;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .ask-row ul {
@@ -673,6 +675,7 @@ main {
 
 .ask-row h4 {
     letter-spacing: 1px;
+    margin-top: 1.7em;
     
 }
 
@@ -703,8 +706,9 @@ main {
 
 .fa-chevron-down,
 .fa-angle-up {
-    float: right;
-    
+    position: absolute;
+    top: 1.7em;
+    right: 2em;  
 }
 
 .fa-angle-up {
