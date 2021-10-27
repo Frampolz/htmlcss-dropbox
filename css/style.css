@@ -648,7 +648,7 @@ main {
 /* 4th section */
 .ask-section {
     width: 65%;
-    height: 42em
+    height: 46em
 ;
 }
 
@@ -691,7 +691,7 @@ main {
 }
 
 .ask-row:hover {
-    height: 10em;
+    height: 12em;
 }
 
 .ask-row:hover .answers,
