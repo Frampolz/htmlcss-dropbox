@@ -649,7 +649,8 @@ main {
 /* 4th section */
 .ask-section {
     width: 65%;
-    height: 600px;
+    height: 40em
+;
 }
 
 .ask-title h2 {
@@ -662,21 +663,54 @@ main {
 
 .ask-row {
     position: relative;
-    padding: 2.5em 0;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
+    height: 5em;
+    margin-top: 3em;
+}
+
+.ask-row ul {
+    width: 90%;
 }
 
 .ask-row h4 {
     letter-spacing: 1px;
+    
+}
+
+.answers {
+    display: none;
+    padding: 1em 0;
+    color: #999999;
+}
+
+.answers>a {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.ask-row:hover {
+    height: 10em;
+}
+
+.ask-row:hover .answers,
+.ask-row:hover .fa-angle-up {
+    display: block;
 }
 
 
-.fa-chevron-down {
-    position: absolute;
-    top: 2.5em;
-    right: 4em;
+.ask-row:hover .fa-chevron-down {
+    display: none;
 }
+
+.fa-chevron-down,
+.fa-angle-up {
+    float: right;
+    
+}
+
+.fa-angle-up {
+    display:  none;
+}
+
 /* /4th section */
 
 /* footer */
